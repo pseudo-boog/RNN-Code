@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader, Dataset
 from matplotlib import pyplot as plt
 import torch
 import itertools
-from RNN_Folder.RNN_Module import get_data_filtered, collate_fn, CustomDataset, SimpleRNN, model_name, train_model, eval_rnn
+from RNN_Module import get_data_filtered, collate_fn, CustomDataset, SimpleRNN, model_name, train_model, eval_rnn
 
 if __name__ == '__main__':
     if torch.backends.mps.is_available():
