@@ -1,0 +1,31 @@
+{
+    "noise_pct": 0.02,
+    "noise_type": "gauss",
+    "mechanism": [
+        "A + cat -> cat1",
+        "cat1 + cat -> P + cat + cat",
+        "cat1 + cat -> catI"
+    ],
+    "k_dict": {
+        "k1": 58.2661,
+        "kN1": 3.185,
+        "k2": 7.5581,
+        "kN2": 0.426,
+        "k3": 637.2042,
+        "kN3": 182.649
+    },
+    "c_dict_1": {
+        "A": 1.0,
+        "cat": 0.065,
+        "P": 0
+    },
+    "num_data_points_1": 34,
+    "true_t_stop_1": 406.0,
+    "c_dict_2": {
+        "A": 1.0,
+        "cat": 0.08125,
+        "P": 0
+    },
+    "num_data_points_2": 15,
+    "true_t_stop_2": 282.0
+}
